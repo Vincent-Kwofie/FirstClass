@@ -86,7 +86,7 @@ for r in range(len(boad)):
 player="X"
 con=0
 stop=False
-restart=Button(width=6,text="RESTART",bg="#a00",command=restart_func).grid(row=5,column=1)
+restart=Button(width=28,text="RESTART",bg="#a00",command=restart_func).grid(row=5,column=1)
 P1_score=0
 P2_score=0
 score=Label(root,bg="#0a0",text=str(P1_score)+"----"+str(P2_score))
